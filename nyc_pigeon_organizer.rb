@@ -20,11 +20,15 @@ pigeon_data = {
 }
 
 
+
+
+end  
+
 def nyc_pigeon_organizer(data)
-  pigeon_list = {}
-  data[color][n].each do |element|
-    element = {}
-    pigeon_list.push(element)
+  data.each_with_object({}) do |(key, value), final_array|
+    value.each do |inner_key, names|
+      binding.pry
+
   end
   data[gender][n] do |element|
 
@@ -32,7 +36,8 @@ def nyc_pigeon_organizer(data)
 
   data[lives][n] do |element|
 
-  end
+  end 
+  binding.pry
 end
 
 nyc_pigeon_organizer(pigeon_data)
