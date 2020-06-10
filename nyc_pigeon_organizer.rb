@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
       binding.pry
 
   end
+end
   data[gender][n] do |element|
 
   end
@@ -15,5 +16,4 @@ def nyc_pigeon_organizer(data)
   data[lives][n] do |element|
 
   end
-  binding.pry
 end
