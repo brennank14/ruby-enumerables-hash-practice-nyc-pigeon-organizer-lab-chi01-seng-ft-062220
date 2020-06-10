@@ -21,7 +21,8 @@ pigeon_data = {
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
   data[color][n].each do |element|
-    element = []
+    element = {}
+    pigeon_list.push(element)
   end
   data[gender][n] do |element|
 
