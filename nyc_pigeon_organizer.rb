@@ -22,7 +22,7 @@ pigeon_data = {
 
 
 
-end  
+end
 
 def nyc_pigeon_organizer(data)
   data.each_with_object({}) do |(key, value), final_array|
@@ -36,7 +36,7 @@ def nyc_pigeon_organizer(data)
 
   data[lives][n] do |element|
 
-  end 
+  end
   binding.pry
 end
 
